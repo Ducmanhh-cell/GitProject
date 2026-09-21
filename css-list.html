@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Danh sách trong CSS</title>
+
+    <style>
+        /* Kiểu danh sách không thứ tự */
+        .list1 {
+            list-style-type: square;
+        }
+
+        /* Kiểu danh sách có thứ tự */
+        .list2 {
+            list-style-type: upper-roman;
+        }
+
+        /* Đánh dấu bằng hình ảnh */
+        .list3 {
+            list-style-image: url("https://www.w3schools.com/css/sqpurple.gif");
+        }
+
+        /* Vị trí đánh dấu */
+        .list4 {
+            list-style-position: inside;
+        }
+
+        /* Thuộc tính rút gọn */
+        .list5 {
+            list-style: circle inside;
+        }
+
+        /* Tạo màu sắc cho danh sách */
+        .color-list {
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        .color-list li {
+            color: #333;
+            margin: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Danh sách trong CSS</h1>
+
+    <h2>1. Danh sách không có thứ tự</h2>
+    <ul class="list1">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h2>2. Danh sách có thứ tự</h2>
+    <ol class="list2">
+        <li>Học HTML</li>
+        <li>Học CSS</li>
+        <li>Học JavaScript</li>
+    </ol>
+
+    <h2>3. Danh sách sử dụng hình ảnh</h2>
+    <ul class="list3">
+        <li>Sản phẩm</li>
+        <li>Dịch vụ</li>
+        <li>Liên hệ</li>
+    </ul>
+
+    <h2>4. Vị trí đánh dấu</h2>
+    <ul class="list4">
+        <li>Nội dung bên trong</li>
+        <li>Nội dung danh sách</li>
+    </ul>
+
+    <h2>5. Thuộc tính list-style rút gọn</h2>
+    <ul class="list5">
+        <li>Mục thứ nhất</li>
+        <li>Mục thứ hai</li>
+        <li>Mục thứ ba</li>
+    </ul>
+
+    <h2>6. Danh sách có màu sắc</h2>
+    <ul class="color-list">
+        <li>Điện thoại</li>
+        <li>Laptop</li>
+        <li>Máy tính bảng</li>
+    </ul>
+
+</body>
+</html>
