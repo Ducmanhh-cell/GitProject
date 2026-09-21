@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bảng trong CSS</title>
+
+    <style>
+        table {
+            width: 100%;
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 15px;
+        }
+
+        th {
+            height: 50px;
+            text-align: left;
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        td {
+            height: 40px;
+            vertical-align: bottom;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .color-table {
+            border: 2px solid #333;
+        }
+
+        .color-table th {
+            background-color: #2196F3;
+            color: white;
+        }
+
+        .color-table td {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Bảng trong CSS</h1>
+
+    <h2>Danh sách học sinh</h2>
+
+    <table>
+        <tr>
+            <th>Họ và Tên</th>
+            <th>Tuổi</th>
+            <th>Lớp</th>
+        </tr>
+        <tr>
+            <td>Nguyễn Văn A</td>
+            <td class="center">15</td>
+            <td>10A1</td>
+        </tr>
+        <tr>
+            <td>Trần Thị B</td>
+            <td class="center">16</td>
+            <td>11B2</td>
+        </tr>
+        <tr>
+            <td>Lê Văn C</td>
+            <td class="right">17</td>
+            <td>12C3</td>
+        </tr>
+    </table>
+
+    <h2>Bảng sản phẩm có màu sắc</h2>
+
+    <table class="color-table">
+        <tr>
+            <th>Tên sản phẩm</th>
+            <th>Giá</th>
+            <th>Số lượng</th>
+        </tr>
+        <tr>
+            <td>Laptop</td>
+            <td>15.000.000 VNĐ</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Điện thoại</td>
+            <td>8.000.000 VNĐ</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Chuột</td>
+            <td>300.000 VNĐ</td>
+            <td>15</td>
+        </tr>
+    </table>
+
+</body>
+</html>
