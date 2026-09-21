@@ -1,0 +1,50 @@
+/* Element selector */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* ID selector */
+#title {
+    text-align: center;
+    color: #2196F3;
+}
+
+/* Class selector */
+.description {
+    text-align: center;
+    color: #333;
+}
+
+/* Grouping selector */
+h1, p {
+    margin-bottom: 20px;
+}
+
+/* Các màu khác nhau cho danh sách */
+.hobby1 {
+    color: red;
+}
+
+.hobby2 {
+    color: blue;
+}
+
+.hobby3 {
+    color: green;
+}
+
+/* Pseudo-class selector */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    background-color: #2196F3;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0b5ed7;
+}
